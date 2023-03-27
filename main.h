@@ -1,4 +1,3 @@
-
 #ifndef MAIN_H
 #define MAIN_H
 #include <stdarg.h>
@@ -20,7 +19,7 @@
 #define S_SHORT 1
 
 /**
- * struct fmt - Struct op
+ * struct format - Struct op
  *
  * @fmt: The format.
  * @fn: The function associated.
@@ -33,7 +32,7 @@ struct fmt
 
 
 /**
- * typedef struct fmt fmt_t - Struct op
+ * typedef struct formatt fmt_t - Struct op
  *
  * @fmt: The format.
  * @fm_t: The function associated.
